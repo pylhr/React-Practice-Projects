@@ -1,0 +1,135 @@
+/* Wrapper styling */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f4f8; /* Light Grayish Blue */
+  min-height: 100vh;
+  
+}
+
+/* Accordion container styling */
+.accordion {
+  background-color: #ffffff; /* White */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  font-family: 'Arial, sans-serif';
+  
+}
+
+/* Header styling */
+.accordion h1 {
+  text-align: center;
+  color: #2d3748; /* Dark Slate Gray */
+  margin-bottom: 20px;
+}
+
+/* Button container styling */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.accordion button {
+  margin: 0;
+}
+
+.accordion button {
+  background-color: #38a169; /* Green */
+  color: #ffffff; /* White */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.accordion button:hover {
+  background-color: #2f855a; /* Dark Green */
+  transform: scale(1.05);
+}
+
+.accordion button:active {
+  background-color: #276749; /* Darker Green */
+}
+
+.accordion button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(56, 161, 105, 0.5); /* Green outline */
+}
+.accordion button{
+ align-self: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+/* Individual item styling */
+.item {
+  border-bottom: 1px solid #e2e8f0; /* Light Gray */
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+/* Title styling */
+.title {
+  background-color: #38a169; /* Green */
+  color: #ffffff; /* White */
+  padding: 15px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.title h3 {
+  margin: 0;
+  flex:1;
+  padding:15px;
+}
+
+.answer {
+  padding: 15px 20px;
+  background-color: #e6fffa; /* Light Greenish Blue */
+  color: #2d3748; /* Dark Slate Gray */
+  border: 1px solid #38a169; /* Green */
+  border-radius: 5px;
+  margin-bottom: 10px;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.title span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.title:hover {
+  background-color: #2f855a; /* Dark Green */
+}
+
+/* Content styling */
+.item > div:nth-child(2) {
+  padding: 15px 20px;
+  background-color: #edf2f7; /* Light Blue Gray */
+  color: #2d3748; /* Dark Slate Gray */
+  border-top: 1px solid #e2e8f0; /* Light Gray */
+}
+
+/* No Data Found styling */
+.accordion .no-data {
+  text-align: center;
+  color: #e53e3e; /* Red */
+  font-weight: bold;
+}
