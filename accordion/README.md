@@ -1,4 +1,4 @@
-This project demonstrates a simple FAQ accordion menu implemented in React. The menu displays a list of questions, and clicking on a question reveals its corresponding answer. This is a UI pattern used in websites to enhance user experience by allowing users to expand and collapse content.
+This project demonstrates an accordion menu implemented in React. The menu displays a list of questions, and clicking on a question reveals its corresponding answer. This is a UI pattern used in websites to enhance user experience by allowing users to expand and collapse content.
 
 ## Features
 - **Enable Single and Multi Selection**: Click on the provided buttton to swtich between single and multi selection.
